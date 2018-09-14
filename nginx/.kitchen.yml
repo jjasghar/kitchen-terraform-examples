@@ -1,0 +1,18 @@
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+  systems:
+    - name: container
+      backend: local
+      hosts_output: container_hostname
+
+platforms:
+  - name: nginx
+
+suites:
+  - name: example

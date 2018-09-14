@@ -1,0 +1,7 @@
+Gemfile.lock
+terraform.tfstate.d/
+*.tfstate
+.direnv/
+.envrc
+.kitchen/
+.terraform/
